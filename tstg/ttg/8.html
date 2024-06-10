@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resp_central</title>
+    <link rel="shortcut icon" href="favicon.ico.ico" type="image/x-icon">
+</head>
+<style>
+
+body {
+            background-color: black;
+            color: #ff6347; /* cor vermelha*/
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+       
+
+h1 {
+
+    border-style: solid;
+
+border-width: 5pt;
+
+background-color: rgb(1, 11, 11);
+
+color: rgb(246, 39, 12);
+
+text-align:center;
+
+}
+
+
+img.grande    {
+display: block;
+border-style: solid;
+position: relative;
+margin: auto;
+border-radius: 10pt;
+filter: drop-shadow(15px 15px 10px rgb(238, 93, 4));
+
+
+
+
+}
+
+img.maxima {
+
+    display: block;
+
+    border-style: solid;
+    
+    max-width: 100%;
+
+    position: relative;
+
+    margin: auto;
+
+    border-radius: 10pt;
+
+    filter: drop-shadow(15px 15px 15px rgb(244, 176, 3));
+
+
+}
+
+img.fixa {
+
+
+    display: block;
+
+    border-style: solid;
+    
+    max-width: 100%;
+
+    position: relative;
+
+    margin: auto;
+
+    border-radius: 10pt;
+
+    filter: drop-shadow(15px 15px 15px rgb(162, 4, 4));
+
+
+}
+
+
+
+
+</style>
+
+<body>
+    <h1>Responsividade de Web Sites e Centralização de Imagens</h1>
+    
+    <hr>
+
+    <h2>A seguir tem uma imagem de uma bela moça. <br> A mesma irá servir para mostrar a responsividade de imagens usando a propriedade width. </h2>
+    
+    <img src="imagens/nezuko4.jpg"  class="grande"   alt="moça"  width="90%" > 
+
+    <hr>
+
+    <h3>A imagem a seguir é uma imagem que terá no maximo uma largura igual a sua largura original, atravez do uso da propriedade css max-width </h3>    //a propriedade max-widht serve para nao mudar o tamanho  da imagem para maior para nao perder a nitidez e a qualidade
+
+    <img src="imagens/death.png"  class="maxima"    alt="gool" >  
+
+    <br><br><br> <hr>
+
+
+<h3>A terceira imagem é colocada para demonstrar a diferença de uma imagem responsiva e uma nao responsiva, a mesma segue o segundo colocado da frase.</h3>
+
+<figure>
+    <img src="imagens/pequena.jpg"   class="fixa"   alt="nao responsiva" > <br> <caption> A beleza dos campos de asgard
+</figure>
+
+
+<br><br><br><hr><hr><hr>
+
+
+
+
+</body>
+</html>
